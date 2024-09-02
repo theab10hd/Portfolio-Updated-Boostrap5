@@ -1,8 +1,14 @@
 @media screen and (max-width: 576px) {
+  .hero {
+    height: 60vh;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
+  .hero {
+    height: 60vh;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -11,6 +17,10 @@
     font-size: 10rem;
     left: 20px;
     bottom: 0;
+  }
+
+  .hero {
+    height: auto;
   }
 }
 
