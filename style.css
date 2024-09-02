@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(#f9f9f9fa, #f9f9f9fa), url(./img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./fonts/SF-Pro-Display-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./fonts/SF-Pro-Display-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+/* Navbar - Icon */
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.btn-close,
+.btn-close:active {
+  box-shadow: none; /* Removes the default focus shadow */
+  border: none; /* Removes the border if any */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.main-box {
+  backdrop-filter: blur(10px);
+}
+
+.project-box {
+  background-color: #e6e6e6;
+}
+
+.bg-dark {
+  background-color: rgb(20, 20, 20);
+}
+
+/* Section About */
+
+.text-back {
+  color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,40 @@
+@media screen and (max-width: 576px) {
+  .text-back {
+    font-size: 8rem;
+    left: 50%;
+    bottom: 0;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  .text-back {
+    font-size: 8rem;
+    left: 50%;
+    top: 50%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .text-back {
+    font-size: 10rem;
+    left: 60%;
+    top: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .text-back {
+    font: 12rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+}
+
+/* XXL devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+}

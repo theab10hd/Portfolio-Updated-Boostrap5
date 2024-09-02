@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhijith Gaganan</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Style -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <!-- Fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fw-bolder" href="#">Abhijith Gaganan</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link me-lg-3" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-lg-3">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section
+      class="container d-flex justify-content-center align-items-center mt-3 mt-md-5 flex-column"
+    >
+      <h3 class="text-dark">
+        <span class="fw-bold text-black">Hey, I'm Abhijith Gaganan,</span>
+        I do full-stack web development and design, crafting seamless and
+        visually compelling digital experiences from end to end.
+      </h3>
+      <!-- Highlited Project -->
+      <div class="container p-2 rounded-3 shadow-sm bg-white">
+        <video
+          src="./img/zomato project.mp4"
+          autoplay
+          loop
+          muted
+          type="video/mp4"
+          class="w-100 rounded-3 border"
+        >
+          Video Not Supported
+        </video>
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md col-12 align-items-center">
+            <h3 class="fw-bold fs-3">Zomato Clone (Frontend)</h3>
+            <p>
+              A responsive frontend for a restaurant discovery app built with
+              Bootstrap 5, featuring a modern, grid-based layout and
+              user-friendly design.
+            </p>
+          </div>
+          <div class="col-md col-12 me-md-3">
+            <a
+              href="https://theab10hd.github.io/Zomato-Like-Clone/"
+              target="_blank"
+              class="float-md-end float-start btn btn-dark"
+              >View<i
+                class="fa-solid fa-arrow-up-right-from-square ms-2 fa-sm"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Projects -->
+      <div class="row p-0 gap-2 container justify-content-between mt-2">
+        <div
+          class="col-12 col-md bg-white d-flex flex-column shadow-sm align-items-center project-box p-2 rounded-2"
+        >
+          <img
+            src="./img/Projects/eliteevents.png"
+            class="img-fluid rounded-3"
+          />
+          <div class="mt-3 d-flex flex-column flex-grow-1">
+            <a class="fw-bold nav-link d-flex align-items-center fs-3" href="#"
+              >Elite Events
+              <i class="fa-solid fa-arrow-up-right-from-square ms-2 fs-6"></i
+            ></a>
+            <p class="mt-2">
+              Elite Events is a top event management company known for crafting
+              exceptional, memorable experiences.
+            </p>
+            <div class="mt-auto">
+              <a href="" target="_blank" class="btn btn-outline-dark mt-2"
+                ><i class="fa-brands fa-github"></i> Go to Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md bg-white d-flex flex-column shadow-sm align-items-center project-box p-2 rounded-2"
+        >
+          <img src="./img/Projects/zomato.png" class="img-fluid rounded-3" />
+          <div class="mt-3 d-flex flex-column flex-grow-1">
+            <div>
+              <a
+                class="fw-bold nav-link fs-3 d-flex align-items-center"
+                href="#"
+                >Zomato Clone
+                <i class="fa-solid fa-arrow-up-right-from-square ms-2 fs-6"></i
+              ></a>
+              <p class="mt-2">
+                The Zomato clone I created using HTML, CSS, and Bootstrap is a
+                sleek, responsive web application that mirrors the functionality
+                and design of the popular food delivery platform.
+              </p>
+            </div>
+            <div class="mt-auto">
+              <a href="" target="_blank" class="btn btn-outline-dark mt-2"
+                ><i class="fa-brands fa-github"></i> Go to Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md bg-white d-flex flex-column shadow-sm align-items-center project-box p-2 rounded-2"
+        >
+          <img
+            src="./img/Projects/polyportal.png"
+            class="img-fluid rounded-3"
+          />
+          <div class="mt-3 d-flex flex-column flex-grow-1">
+            <a class="fw-bold nav-link d-flex align-items-center fs-3" href="#"
+              >Poly Portal
+              <i class="fa-solid fa-arrow-up-right-from-square ms-2 fs-6"></i
+            ></a>
+            <p class="mt-2">
+              PolyPortal is a comprehensive website offering study notes and
+              module resources specifically tailored for diploma students.
+            </p>
+            <div class="mt-auto">
+              <a href="" target="_blank" class="btn btn-outline-dark mt-2"
+                ><i class="fa-brands fa-github"></i> Go to Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section
+      class="container-fluid mt-5 bg-dark text-light position-relative z-index-0 overflow-hidden"
+    >
+      <h1 class="text-back position-absolute z-index-200">Designing.</h1>
+      <div class="container py-4 px-0 position-relative z-index-100">
+        <h3 class="fw-bold">
+          Abhijith Gaganan.
+          <span class="text-secondary fw-normal"
+            >MERN Stack / Graphic Designing</span
+          >
+        </h3>
+        <p class="w-md-75 w-100">
+          a MERN stack developer passionate about crafting intuitive and
+          engaging user experiences. With a strong blend of technical skills and
+          design sense, I transform ideas into responsive, user-friendly web
+          applications.
+        </p>
+        <div class="row">
+          <div class="col-md col-12">
+            <i class="fa-solid fa-location-dot me-2"></i>Kochi, Kerala
+          </div>
+          <div class="col-md col-12">
+            <i class="fa-solid fa-envelope me-2"></i>theab10hd@gmail.com
+          </div>
+          <div class="col-md col-12">
+            <i class="fa-solid fa-phone me-2"></i>+91 8078 5564 11
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
