@@ -1,26 +1,16 @@
 @media screen and (max-width: 576px) {
-  .text-back {
-    font-size: 8rem;
-    left: 50%;
-    bottom: 0;
-  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
-  .text-back {
-    font-size: 8rem;
-    left: 50%;
-    top: 50%;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   .text-back {
     font-size: 10rem;
-    left: 60%;
-    top: 0;
+    left: 20px;
+    bottom: 0;
   }
 }
 

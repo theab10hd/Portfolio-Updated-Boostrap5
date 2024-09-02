@@ -4,8 +4,8 @@ html {
 
 body {
   background-image: linear-gradient(#f9f9f9fa, #f9f9f9fa), url(./img/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: repeat;
   background-attachment: fixed;
   font-family: "SF Pro Display", sans-serif;
   font-weight: normal;
@@ -53,4 +53,6 @@ body::-webkit-scrollbar {
 
 .text-back {
   color: rgba(255, 255, 255, 0.1);
+  font-weight: 600;
+  line-height: 80%;
 }

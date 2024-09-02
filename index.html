@@ -14,11 +14,6 @@
     <!-- Style -->
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./responsive.css" />
-    <!-- Fontawsome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
@@ -52,13 +47,13 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1">
               <li class="nav-item">
-                <a class="nav-link me-lg-3" href="#">Projects</a>
+                <a class="nav-link me-lg-3" href="#home">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-lg-3">About</a>
+                <a class="nav-link me-lg-3" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -69,11 +64,12 @@
     <!-- Home -->
 
     <section
+      id="home"
       class="container d-flex justify-content-center align-items-center mt-3 mt-md-5 flex-column"
     >
       <h3 class="text-dark">
         <span class="fw-bold text-black">Hey, I'm Abhijith Gaganan,</span>
-        I do full-stack web development and design, crafting seamless and
+        I do full-stack web development and designing, crafting seamless and
         visually compelling digital experiences from end to end.
       </h3>
       <!-- Highlited Project -->
@@ -81,6 +77,7 @@
         <video
           src="./img/zomato project.mp4"
           autoplay
+          loop
           muted
           playsinline
           type="video/mp4"
@@ -135,7 +132,7 @@
           </div>
         </div>
         <div
-          class="col-12 col-md bg-white d-flex flex-column shadow-sm align-items-center project-box p-2 rounded-2"
+          class="col-12 col-md bg-white d-md-flex flex-column shadow-sm align-items-center project-box p-2 rounded-2 d-none"
         >
           <img src="./img/Projects/zomato.png" class="img-fluid rounded-3" />
           <div class="mt-3 d-flex flex-column flex-grow-1">
@@ -188,9 +185,12 @@
     <!-- About -->
 
     <section
+      id="about"
       class="container-fluid mt-5 bg-dark text-light position-relative z-index-0 overflow-hidden"
     >
-      <h1 class="text-back position-absolute z-index-200">Designing.</h1>
+      <h1 class="text-back position-absolute z-index-200 d-none d-md-block">
+        Designing <br />Future.
+      </h1>
       <div class="container py-4 px-0 position-relative z-index-100">
         <h3 class="fw-bold">
           Abhijith Gaganan.
@@ -198,7 +198,7 @@
             >MERN Stack / Graphic Designing</span
           >
         </h3>
-        <p class="w-md-75 w-100">
+        <p class="w-100">
           a MERN stack developer passionate about crafting intuitive and
           engaging user experiences. With a strong blend of technical skills and
           design sense, I transform ideas into responsive, user-friendly web
@@ -215,6 +215,218 @@
             <i class="fa-solid fa-phone me-2"></i>+91 8078 5564 11
           </div>
         </div>
+        <!-- Mobile Links -->
+        <div class="container p-0 mt-4 d-block d-md-none">
+          <p class="text-secondary text-center">social media</p>
+          <div class="row gap-2 mt-2 justify-content-center text-secondary">
+            <a
+              class="col nav-link rounded-2 bg-secondary-subtle bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+              href=" https://www.linkedin.com/in/abhijith-gaganan/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin fa-xl p-3"></i>
+              <span>linkedin</span>
+            </a>
+
+            <a
+              class="col nav-link rounded-2 bg-secondary-subtle bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+              href=" https://api.whatsapp.com/send/?phone=918078556411&text&type=phone_number&app_absent=0"
+              target="_blank"
+            >
+              <i class="fa-brands fa-whatsapp fa-xl p-3"></i>
+              <span>whatsapp</span>
+            </a>
+
+            <a
+              class="col nav-link rounded-2 bg-secondary-subtle bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+              href=" https://github.com/theab10hd"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github fa-xl p-3"></i>
+              <span>github</span>
+            </a>
+
+            <a
+              class="col nav-link rounded-2 bg-secondary-subtle bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+              href=" https://www.instagram.com/itsabhijithhere/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram fa-xl p-3"></i>
+              <span>instagram</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <h5 class="fw-medium text-md-end text-center mt-4 mt-md-3 mt-md-5">
+          here are the languages and programs I am well-versed in
+        </h5>
+        <div class="container">
+          <!-- Languages -->
+          <div class="row mt-2 justify-content-center p-0 gap-2">
+            <div class="row p-0 w-100">
+              <div
+                class="col-6 d-flex justify-content-md-start d-none d-md-block p-0"
+              >
+                <span class="text-secondary">social media</span>
+              </div>
+              <div
+                class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end p-0"
+              >
+                <span class="text-secondary">languages</span>
+              </div>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-md d-none d-md-block">
+              <div
+                class="row gap-2 justify-content-md-start mt-2 justify-content-center text-secondary"
+              >
+                <a
+                  class="col nav-link rounded-2 bg-secondary-subtle bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                  href=" https://www.linkedin.com/in/abhijith-gaganan/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin fa-xl p-3"></i>
+                  <span>linkedin</span>
+                </a>
+
+                <a
+                  class="col nav-link rounded-2 bg-secondary-subtle bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                  href="https://api.whatsapp.com/send/?phone=918078556411&text&type=phone_number&app_absent=0"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-whatsapp fa-xl p-3"></i>
+                  <span>whatsapp</span>
+                </a>
+
+                <a
+                  class="col nav-link rounded-2 bg-secondary-subtle bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                  href=" https://github.com/theab10hd"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github fa-xl p-3"></i>
+                  <span>github</span>
+                </a>
+
+                <a
+                  class="col nav-link rounded-2 bg-secondary-subtle bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                  href=" https://www.instagram.com/itsabhijithhere/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram fa-xl p-3"></i>
+                  <span>instagram</span>
+                </a>
+              </div>
+            </div>
+            <!-- Languages -->
+            <div class="col-12 col-md-8 mt-2">
+              <div
+                class="row gap-2 justify-content-md-end justify-content-center"
+              >
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-brands fa-bootstrap fa-xl p-3"></i>
+                  <span>bootstrap</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-brands fa-html5 fa-xl p-3"></i>
+                  <span>html</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-brands fa-css3 fa-xl p-3"></i>
+                  <span>css</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-brands fa-c fa-xl p-3"></i>
+                  <span>c</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-brands fa-js fa-xl p-3"></i>
+                  <span>javascript</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-brands fa-css3-alt fa-xl p-3"></i>
+                  <span>tailwind</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-brands fa-node fa-xl p-3"></i>
+                  <span>node</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-brands fa-react fa-xl p-3"></i>
+                  <span>react</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-brands fa-angular fa-xl p-3"></i>
+                  <span>angular</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Programs -->
+          <div class="row mt-2 justify-content-end">
+            <span class="text-secondary text-md-end text-center">programs</span>
+            <div class="col-12 col-md-8 mt-2">
+              <div
+                class="row gap-2 justify-content-md-end justify-content-center"
+              >
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-solid fa-laptop fa-xl p-3"></i>
+                  <span>photoshop</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-solid fa-laptop fa-xl p-3"></i>
+                  <span>aftereffects</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-solid fa-laptop fa-xl p-3"></i>
+                  <span>premierepro</span>
+                </div>
+
+                <div
+                  class="col rounded-2 bg-secondary bg-gradient d-flex flex-column flex-grow-0 align-items-center justify-content-center p-2"
+                >
+                  <i class="fa-brands fa-figma fa-xl p-3"></i>
+                  <span>figma</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -225,5 +437,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="./script.js"></script>
+    <!-- Fontawsome -->
+    <script
+      src="https://kit.fontawesome.com/c5e649c0b6.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
