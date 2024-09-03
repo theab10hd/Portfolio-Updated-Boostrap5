@@ -1,13 +1,15 @@
 @media screen and (max-width: 576px) {
   .hero {
-    height: 60vh;
+    height: 50vh;
+    font-size: 1.7rem;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
   .hero {
-    height: 60vh;
+    height: 40vh;
+    font-size: 1.7rem;
   }
 }
 
@@ -21,6 +23,7 @@
 
   .hero {
     height: auto;
+    font-size: 1.75rem;
   }
 }
 
