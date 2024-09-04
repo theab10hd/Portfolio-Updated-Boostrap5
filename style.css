@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(#f9f9f9fa, #f9f9f9fa), url(./img/bg.jpg);
+  background-image: linear-gradient(#f5f5f5fa, #f5f5f5fa), url(./img/bg.jpg);
   background-size: contain;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -48,7 +48,9 @@ body::-webkit-scrollbar {
 /* Section About */
 
 .text-back {
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(125, 125, 125, 0.1);
   font-weight: 600;
   line-height: 80%;
+  left: 0;
+  bottom: 0;
 }
